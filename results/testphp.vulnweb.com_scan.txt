@@ -1,0 +1,51 @@
+Scan started at: Sun May 11 11:09:46 AM IST 2025
+
+[+] Running Ping Scan...
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-11 11:09 IST
+Nmap scan report for testphp.vulnweb.com (44.228.249.3)
+Host is up (0.038s latency).
+Other addresses for testphp.vulnweb.com (not scanned): 64:ff9b::2ce4:f903
+rDNS record for 44.228.249.3: ec2-44-228-249-3.us-west-2.compute.amazonaws.com
+Nmap done: 1 IP address (1 host up) scanned in 0.42 seconds
+
+[+] Running Port Scan...
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-11 11:09 IST
+Nmap scan report for testphp.vulnweb.com (44.228.249.3)
+Host is up (0.035s latency).
+Other addresses for testphp.vulnweb.com (not scanned): 64:ff9b::2ce4:f903
+rDNS record for 44.228.249.3: ec2-44-228-249-3.us-west-2.compute.amazonaws.com
+Not shown: 65534 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 117.93 seconds
+
+[+] Running OS Detection and Service Version Scan...
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-11 11:11 IST
+Nmap scan report for testphp.vulnweb.com (44.228.249.3)
+Host is up (0.039s latency).
+Other addresses for testphp.vulnweb.com (not scanned): 64:ff9b::2ce4:f903
+rDNS record for 44.228.249.3: ec2-44-228-249-3.us-west-2.compute.amazonaws.com
+Not shown: 999 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    nginx 1.19.0
+|_http-title: Home of Acunetix Art
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Linux 4.X (85%)
+OS CPE: cpe:/o:linux:linux_kernel:4.15
+Aggressive OS guesses: Linux 4.15 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 7 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+1   0.52 ms  LAPTOP-V1BTR08C.mshome.net (172.19.208.1)
+2   9.11 ms  192.168.69.90
+3   ... 6
+7   40.09 ms ec2-44-228-249-3.us-west-2.compute.amazonaws.com (44.228.249.3)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 60.19 seconds
+
+[+] Scan completed at: Sun May 11 11:12:45 AM IST 2025
