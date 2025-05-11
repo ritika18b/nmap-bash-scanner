@@ -40,10 +40,10 @@ Network Distance: 7 hops
 
 TRACEROUTE (using port 80/tcp)
 HOP RTT      ADDRESS
-1   0.52 ms  LAPTOP-V1BTR08C.mshome.net (172.19.208.1)
-2   9.11 ms  192.168.69.90
+1   0.52 ms  LAPTOP-V1BTRC.mshome.net (172.19.228.1)
+2   9.11 ms  192.168.60.90
 3   ... 6
-7   40.09 ms ec2-44-228-249-3.us-west-2.compute.amazonaws.com (44.228.249.3)
+7   40.09 ms ec2-44-228-249-3.us-west-2.compute.amazonaws.com (44.238.249.3)
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 60.19 seconds
