@@ -36,7 +36,8 @@ chmod +x scan.sh
 5. Check the results in the `results/` directory.
 
 ## Download
-![Download](https://img.shields.io/badge/Download-Scan%20Tool-green.svg)
+
+[![Download](https://img.shields.io/badge/Download-ZIP-blue?logo=github)](https://github.com/ritika18b/nmap-bash-scanner/archive/refs/heads/main.zip)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
